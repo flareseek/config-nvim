@@ -1,0 +1,5 @@
+require("mappings").leaderkey()
+require("autocmds")
+require("config.vimrc")
+require("config.lazy")
+require("config.lsp")

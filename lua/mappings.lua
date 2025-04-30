@@ -31,7 +31,7 @@ M.mini_surround = {
 
 M.telescope = function()
   map("n", "<C-space>", "<cmd>Telescope find_files<cr>", { desc = "Telescope find files" })
-  map("n", "<tab><space>", "<cmd>Telescope live_grep", { desc = "Telescopr live grep" })
+  map("n", "<tab><space>", "<cmd>Telescope live_grep<cr>", { desc = "Telescopr live grep" })
 end
 
 return M

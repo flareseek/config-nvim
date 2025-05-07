@@ -1,4 +1,4 @@
-require("mappings").leaderkey()
+require("mappings").keymap()
 require("autocmds")
 require("config.vimrc")
 require("config.lazy")

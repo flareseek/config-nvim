@@ -1,7 +1,8 @@
 local M = {}
 local map = vim.keymap.set
 
-M.leaderkey = function()
+M.keymap = function()
+  map("t", "<Esc>", "<C-\\><C-N>", { noremap=true, desc = "terminal escape terminal mode" })
   vim.g.lightweight_mode = false
   vim.g.mapleader = "\\"
 -- vim.g.maplocalleader = ""

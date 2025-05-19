@@ -3,6 +3,7 @@ local map = vim.keymap.set
 
 M.keymap = function()
   map("t", "<Esc>", "<C-\\><C-N>", { noremap=true, desc = "terminal escape terminal mode" })
+  map("t", "<C-[>", "<C-\\><C-N>", { noremap=true, desc = "terminal escape terminal mode" })
   vim.g.lightweight_mode = false
   vim.g.mapleader = "\\"
 -- vim.g.maplocalleader = ""

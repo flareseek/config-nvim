@@ -10,6 +10,7 @@ vim.opt.sessionoptions = 'curdir,folds,globals,help,tabpages,terminal,winsize'
 -- 기본 설정
 vim.opt.mouse = "a"             -- 마우스 모드 활성화
 vim.opt.number = true           -- 라인 번호 출력
+vim.opt.relativenumber = true
 vim.opt.incsearch = true        -- 실시간 검색
 vim.opt.ignorecase = true       -- 대소문자 구분 없는 검색
 vim.opt.smartcase = true     -- 대문자가 포함되면 대소문자 구분
